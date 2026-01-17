@@ -1,0 +1,140 @@
+:root {
+  --bs-primary-rgb: 10, 2, 128;
+}
+
+@font-face {
+  font-family: 'Afacad';
+  src: url('./typo/Afacad/Afacad-VariableFont_wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Barrio';
+  src: url('./typo/Barrio/Barrio-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Afacad', sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Barrio', sans-serif;
+  font-size: 150px;
+}
+
+h2, h3{
+    font-size: 60px;
+}
+
+h1, h2, h3{
+    margin: 0;
+    line-height: 1;
+}
+
+h3, h4 {
+    font-family: 'Barrio', sans-serif;
+}
+
+p{
+  line-height: 1;
+}
+
+#point{
+    font-size: 50px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+main {
+  flex: 1;
+  margin-top: 1rem;
+}
+
+footer {
+  margin-top: 1rem;
+}
+
+/*PROJETS*/
+
+.card {
+  width: 30rem;
+  height: fit-content;
+}
+
+.card-img-top {
+  height: 25rem;
+  object-fit: cover;
+}
+
+.gauche{
+  margin-top: 10rem;
+}
+
+.paysage img{
+  max-width: 30rem;
+}
+
+.portrait img{
+  max-width: 25rem;
+}
+
+/*CONTACT*/
+
+.contact span{
+  font-size: 15.62rem;
+  line-height: 0;
+}
+
+#ensemble{
+  font-size: 50rem;
+  line-height: 0;
+  width: 20px;
+  height: 20px;
+}
+
+/*A PROPOS*/
+
+.a_propos img{
+  width: 20%;
+}
+
+.a_propos h1{
+  font-size: 80px;
+}
+
+#logo{
+  width: 30%;
+}
+
+#texte{
+  width: 50%;
+}
+
+.a_propos .btn{
+  width: 250px;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.btn:hover{
+  transform: scale(1.15);
+  background-color: #0A0280;
+  opacity: 50%;
+}
+
+.btn{
+  transition: all 0.3s ease;
+}
