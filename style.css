@@ -121,7 +121,7 @@ footer {
 }
 
 #logo img {
-  max-width: 60px;
+  max-width: 50px;
   height: auto;
 }
 
@@ -144,3 +144,4 @@ footer {
 .btn{
   transition: all 0.3s ease;
 }
+
