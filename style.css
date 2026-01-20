@@ -115,8 +115,14 @@ footer {
   font-size: 80px;
 }
 
-#logo{
-  width: 30%;
+#logo {
+  width: 100%;
+  justify-content: center; 
+}
+
+#logo img {
+  max-width: 60px;
+  height: auto;
 }
 
 #texte{
