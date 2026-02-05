@@ -91,6 +91,10 @@ footer {
   max-width: 25rem;
 }
 
+#doubles_pages img{
+  max-width: 60rem;
+}
+
 /*CONTACT*/
 
 .contact span{
@@ -144,4 +148,5 @@ footer {
 .btn{
   transition: all 0.3s ease;
 }
+
 
